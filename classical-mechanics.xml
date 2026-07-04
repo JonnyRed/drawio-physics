@@ -1,279 +1,340 @@
-<mxlibrary>
-  <mxCell id="force_vector_basic" name="Force Vector" title="Basic force vector arrow" value="force" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF0000;dashed=0;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry">
-      <mxPoint x="10" y="50" as="sourcePoint"/>
-      <mxPoint x="90" y="50" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="force_vector_large" name="Force Vector (Large)" title="Emphasized force indicator" value="force_large" style="endArrow=classic;startArrow=none;html=1;strokeWidth=3;fillColor=none;strokeColor=#FF0000;" vertex="1">
-    <mxGeometry width="120" height="120" as="geometry">
-      <mxPoint x="10" y="60" as="sourcePoint"/>
-      <mxPoint x="110" y="60" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="weight_vector" name="Weight Vector" title="Gravitational force (downward)" value="weight" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#0066CC;" vertex="1">
-    <mxGeometry width="100" height="120" as="geometry">
-      <mxPoint x="50" y="10" as="sourcePoint"/>
-      <mxPoint x="50" y="110" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="normal_force" name="Normal Force" title="Force perpendicular to surface" value="normal_force" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#00AA00;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry">
-      <mxPoint x="50" y="90" as="sourcePoint"/>
-      <mxPoint x="50" y="10" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="friction_force" name="Friction Force" title="Resistance along surface" value="friction" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#FF6600;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry">
-      <mxPoint x="90" y="50" as="sourcePoint"/>
-      <mxPoint x="10" y="50" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="tension_force" name="Tension" title="Force along rope or cable" value="tension" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#9900CC;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry">
-      <mxPoint x="50" y="90" as="sourcePoint"/>
-      <mxPoint x="50" y="10" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="velocity_vector" name="Velocity Vector" title="Instantaneous velocity (v)" value="velocity" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#0066FF;dashed=1;" vertex="1">
-    <mxGeometry width="100" height="80" as="geometry">
-      <mxPoint x="10" y="40" as="sourcePoint"/>
-      <mxPoint x="90" y="40" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="acceleration_vector" name="Acceleration Vector" title="Instantaneous acceleration (a)" value="acceleration" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF0099;dashed=2;" vertex="1">
-    <mxGeometry width="100" height="80" as="geometry">
-      <mxPoint x="10" y="40" as="sourcePoint"/>
-      <mxPoint x="90" y="40" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="point_mass" name="Point Mass" title="Particle or concentrated mass" value="mass" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;strokeColor=#990000;strokeWidth=2;" vertex="1">
-    <mxGeometry width="40" height="40" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="block_mass" name="Block/Mass" title="Extended rectangular mass" value="block" style="rectangle;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=#CC0000;strokeWidth=2;" vertex="1">
-    <mxGeometry width="60" height="60" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="ideal_spring" name="Ideal Spring" title="Linear spring element" value="spring" style="path;html=1;strokeColor=#0066FF;fillColor=none;strokeWidth=2;pointerEvents=false;absoluteArcSize=1;arcSize=10;curveFitting=1;rounded=0;" vertex="1">
-    <mxGeometry width="100" height="50" as="geometry">
-      <mxPoint x="0" y="25" as="point"/>
-      <mxPoint x="100" y="25" as="point"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="damper" name="Damper" title="Viscous damping element" value="damper" style="shape=mxgraph.mechanical.damper;html=1;fillColor=#E6E6FF;strokeColor=#0000CC;strokeWidth=2;" vertex="1">
-    <mxGeometry width="100" height="50" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="fixed_pulley" name="Fixed Pulley" title="Pulley constrained at one point" value="pulley" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFCC;strokeColor=#CC9900;strokeWidth=2;" vertex="1">
-    <mxGeometry width="50" height="50" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="movable_pulley" name="Movable Pulley" title="Pulley that can translate" value="pulley_movable" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFDD;strokeColor=#CCAA00;strokeWidth=2;dashed=1;" vertex="1">
-    <mxGeometry width="50" height="50" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="inclined_plane" name="Inclined Plane" title="Adjustable angle plane" value="incline" style="polygon;points=[[0,80],[100,20],[100,80]];html=1;fillColor=#E6F2FF;strokeColor=#0066CC;strokeWidth=2;" vertex="1">
-    <mxGeometry width="100" height="80" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="rope_cable" name="Rope/Cable" title="Massless rope or cable" value="rope" style="line;html=1;strokeWidth=2;strokeColor=#8B4513;rounded=0;" vertex="1">
-    <mxGeometry width="100" height="10" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="fixed_support" name="Fixed Support" title="Fully constrained point" value="fixed" style="path;html=1;fillColor=#CCCCCC;strokeColor=#000000;strokeWidth=2;" vertex="1">
-    <mxGeometry width="40" height="40" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="roller_support" name="Roller Support" title="Constrained normal to surface" value="roller" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#333333;strokeWidth=2;" vertex="1">
-    <mxGeometry width="40" height="40" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="pin_joint" name="Pin Joint" title="Moment-free connection" value="pin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFE6E6;strokeColor=#CC3333;strokeWidth=2;" vertex="1">
-    <mxGeometry width="30" height="30" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="hinge" name="Hinge" title="Rotational joint" value="hinge" style="path;html=1;fillColor=#FFDDDD;strokeColor=#CC0000;strokeWidth=2;" vertex="1">
-    <mxGeometry width="50" height="50" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="rigid_connection" name="Rigid Connection" title="Moment-transferring connection" value="rigid" style="line;html=1;strokeWidth=3;strokeColor=#000000;" vertex="1">
-    <mxGeometry width="100" height="10" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="angular_velocity" name="Angular Velocity (ω)" title="Rotational motion indicator" value="omega" style="curved=1;html=1;strokeWidth=2;strokeColor=#FF6600;fillColor=none;endArrow=classic;" vertex="1">
-    <mxGeometry width="80" height="80" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="angular_acceleration" name="Angular Acceleration (α)" title="Rotational acceleration indicator" value="alpha" style="curved=1;html=1;strokeWidth=2;strokeColor=#FF0099;fillColor=none;endArrow=classic;dashed=2;" vertex="1">
-    <mxGeometry width="80" height="80" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="angle_indicator" name="Angle Indicator" title="Arc with angle label" value="angle" style="curved=1;html=1;strokeWidth=1.5;strokeColor=#000000;fillColor=none;" vertex="1">
-    <mxGeometry width="60" height="60" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="distance_marker" name="Distance Marker" title="Dimension line" value="distance" style="line;html=1;strokeWidth=1;strokeColor=#000000;endArrow=classic;startArrow=classic;" vertex="1">
-    <mxGeometry width="100" height="10" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="center_of_mass" name="Center of Mass" title="Center of mass indicator (★)" value="com" style="text;html=1;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1">
-    <mxGeometry width="40" height="40" as="geometry">
-      <mxPoint as="offset"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="coordinate_axes" name="Coordinate Axes" title="XY coordinate system" value="axes" style="line;html=1;strokeWidth=1;strokeColor=#000000;endArrow=classic;" vertex="1">
-    <mxGeometry width="80" height="80" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="atwood_machine" name="Atwood Machine" title="Two-mass pulley system" value="atwood" style="group;html=1;" vertex="1">
-    <mxGeometry width="120" height="200" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="pendulum_arm" name="Pendulum Arm" title="Rigid arm for pendulum" value="pendulum_arm" style="line;html=1;strokeWidth=3;strokeColor=#8B4513;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="pendulum_mass" name="Pendulum Mass" title="Hanging mass on pendulum" value="pend_mass" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCFF;strokeColor=#3333CC;strokeWidth=2;" vertex="1">
-    <mxGeometry width="40" height="40" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="oscillator_base" name="Oscillator Base" title="Fixed surface for oscillator" value="osc_base" style="rectangle;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;" vertex="1">
-    <mxGeometry width="100" height="30" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="smooth_surface" name="Smooth/Frictionless Surface" title="Frictionless contact surface" value="smooth" style="line;html=1;strokeWidth=2;strokeColor=#0066FF;" vertex="1">
-    <mxGeometry width="120" height="10" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="rough_surface" name="Rough Surface" title="Friction indicator (textured)" value="rough" style="path;html=1;strokeWidth=2;strokeColor=#666666;fillColor=#DDDDDD;" vertex="1">
-    <mxGeometry width="120" height="20" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="displacement_vector" name="Displacement" title="Position or path indicator" value="displacement" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#0066FF;dashed=3;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry">
-      <mxPoint x="10" y="50" as="sourcePoint"/>
-      <mxPoint x="90" y="50" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="trajectory" name="Trajectory" title="Motion path indicator" value="trajectory" style="curved=1;html=1;strokeWidth=1.5;strokeColor=#666666;fillColor=none;dashed=3;endArrow=classic;" vertex="1">
-    <mxGeometry width="150" height="100" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="applied_force" name="Applied Force" title="External push or pull" value="applied" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#00CC00;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry">
-      <mxPoint x="10" y="50" as="sourcePoint"/>
-      <mxPoint x="90" y="50" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="component_x" name="Force Component (X)" title="Horizontal component of force" value="comp_x" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF9900;dashed=1;" vertex="1">
-    <mxGeometry width="80" height="80" as="geometry">
-      <mxPoint x="10" y="40" as="sourcePoint"/>
-      <mxPoint x="70" y="40" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="component_y" name="Force Component (Y)" title="Vertical component of force" value="comp_y" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF9900;dashed=1;" vertex="1">
-    <mxGeometry width="80" height="80" as="geometry">
-      <mxPoint x="40" y="70" as="sourcePoint"/>
-      <mxPoint x="40" y="10" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="resultant_force" name="Resultant Force" title="Vector sum of forces" value="resultant" style="endArrow=classic;startArrow=none;html=1;strokeWidth=3;fillColor=none;strokeColor=#FF0000;dashed=4;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry">
-      <mxPoint x="10" y="50" as="sourcePoint"/>
-      <mxPoint x="90" y="50" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="couple_moment" name="Couple/Moment" title="Rotational force pair or moment" value="couple" style="curved=1;html=1;strokeWidth=2;strokeColor=#FF0000;fillColor=none;endArrow=classic;startArrow=classic;dashed=2;" vertex="1">
-    <mxGeometry width="80" height="80" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="reaction_force_vertical" name="Reaction Force (Vertical)" title="Support reaction upward" value="reaction_v" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#6600CC;" vertex="1">
-    <mxGeometry width="100" height="120" as="geometry">
-      <mxPoint x="50" y="110" as="sourcePoint"/>
-      <mxPoint x="50" y="10" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="reaction_force_horizontal" name="Reaction Force (Horizontal)" title="Support reaction sideways" value="reaction_h" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#6600CC;" vertex="1">
-    <mxGeometry width="120" height="100" as="geometry">
-      <mxPoint x="110" y="50" as="sourcePoint"/>
-      <mxPoint x="10" y="50" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="circular_motion_path" name="Circular Motion Path" title="Circle for circular motion diagram" value="circle_motion" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#FF6600;strokeWidth=2;dashed=1;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="centripetal_force" name="Centripetal Force" title="Force toward center (circular motion)" value="centripetal" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#FF0000;" vertex="1">
-    <mxGeometry width="80" height="80" as="geometry">
-      <mxPoint x="70" y="40" as="sourcePoint"/>
-      <mxPoint x="10" y="40" as="targetPoint"/>
-    </mxGeometry>
-  </mxCell>
-
-  <mxCell id="weld_rigid_bond" name="Weld/Rigid Bond" title="Permanent rigid connection" value="weld" style="line;html=1;strokeWidth=4;strokeColor=#000000;endArrow=none;" vertex="1">
-    <mxGeometry width="100" height="10" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="label_container" name="Label Container" title="Text box for variable labels" value="label" style="rounded=1;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" vertex="1">
-    <mxGeometry width="80" height="30" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="axis_label_x" name="Axis Label (X)" title="X-axis indicator" value="axis_x" style="text;html=1;fontSize=14;fontStyle=bold;align=center;verticalAlign=middle;fontColor=#0066FF;" vertex="1">
-    <mxGeometry width="40" height="40" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="axis_label_y" name="Axis Label (Y)" title="Y-axis indicator" value="axis_y" style="text;html=1;fontSize=14;fontStyle=bold;align=center;verticalAlign=middle;fontColor=#0066FF;" vertex="1">
-    <mxGeometry width="40" height="40" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="double_mass" name="Two-Body System" title="Connected mass system" value="two_body" style="group;html=1;" vertex="1">
-    <mxGeometry width="150" height="80" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="free_body_diagram_frame" name="FBD Frame" title="Container for free body diagram" value="fbd_frame" style="rectangle;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;dashed=1;" vertex="1">
-    <mxGeometry width="200" height="200" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="spring_damper_combo" name="Spring-Damper Combination" title="Parallel spring and damper" value="spring_damper" style="group;html=1;" vertex="1">
-    <mxGeometry width="100" height="100" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="magnitude_indicator" name="Magnitude Indicator" title="Show force or vector magnitude" value="magnitude" style="text;html=1;fontSize=11;fillColor=#FFFFCC;strokeColor=#FF9900;strokeWidth=1;align=center;verticalAlign=middle;" vertex="1">
-    <mxGeometry width="60" height="25" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="simple_box_mass" name="Simple Mass (Box)" title="Basic rectangular mass" value="box_mass" style="rectangle;html=1;fillColor=#FFE6E6;strokeColor=#CC0000;strokeWidth=2;rounded=0;" vertex="1">
-    <mxGeometry width="50" height="50" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="circle_mass" name="Circular Mass" title="Circular mass representation" value="circle_mass" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFE6E6;strokeColor=#CC0000;strokeWidth=2;" vertex="1">
-    <mxGeometry width="50" height="50" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="extended_beam" name="Beam/Rod" title="Rigid beam or rod element" value="beam" style="rectangle;html=1;fillColor=#D9D9D9;strokeColor=#333333;strokeWidth=2;rounded=0;" vertex="1">
-    <mxGeometry width="120" height="20" as="geometry"/>
-  </mxCell>
-
-  <mxCell id="constraint_symbol" name="Constraint Symbol" title="General constraint indicator" value="constraint" style="path;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;" vertex="1">
-    <mxGeometry width="50" height="50" as="geometry"/>
-  </mxCell>
-
-</mxlibrary>
+<mxlibrary><![CDATA[
+[
+  {
+    "title": "Force Vector",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022force_vector_basic\u0022 name=\u0022Force Vector\u0022 title=\u0022Basic force vector arrow\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF0000;dashed=0;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Force Vector (Large)",
+    "w": 120,
+    "h": 120,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022force_vector_large\u0022 name=\u0022Force Vector (Large)\u0022 title=\u0022Emphasized force indicator\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=3;fillColor=none;strokeColor=#FF0000;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022120\u0022 height=\u0022120\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002260\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u0022110\u0022 y=\u002260\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002260\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u0022110\u0022 y=\u002260\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Weight Vector",
+    "w": 100,
+    "h": 120,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022weight_vector\u0022 name=\u0022Weight Vector\u0022 title=\u0022Gravitational force (downward)\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#0066CC;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022120\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002250\u0022 y=\u002210\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002250\u0022 y=\u0022110\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002260\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002260\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Normal Force",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022normal_force\u0022 name=\u0022Normal Force\u0022 title=\u0022Force perpendicular to surface\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#00AA00;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002250\u0022 y=\u002290\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002250\u0022 y=\u002210\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Friction Force",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022friction_force\u0022 name=\u0022Friction Force\u0022 title=\u0022Resistance along surface\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#FF6600;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Tension",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022tension_force\u0022 name=\u0022Tension\u0022 title=\u0022Force along rope or cable\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#9900CC;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002250\u0022 y=\u002290\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002250\u0022 y=\u002210\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Velocity Vector",
+    "w": 100,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022velocity_vector\u0022 name=\u0022Velocity Vector\u0022 title=\u0022Instantaneous velocity (v)\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#0066FF;dashed=1;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Acceleration Vector",
+    "w": 100,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022acceleration_vector\u0022 name=\u0022Acceleration Vector\u0022 title=\u0022Instantaneous acceleration (a)\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF0099;dashed=2;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Point Mass",
+    "w": 40,
+    "h": 40,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022point_mass\u0022 name=\u0022Point Mass\u0022 title=\u0022Particle or concentrated mass\u0022 value=\u0022mass\u0022 style=\u0022ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;strokeColor=#990000;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002240\u0022 height=\u002240\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Block/Mass",
+    "w": 60,
+    "h": 60,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022block_mass\u0022 name=\u0022Block/Mass\u0022 title=\u0022Extended rectangular mass\u0022 value=\u0022block\u0022 style=\u0022rectangle;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=#CC0000;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002260\u0022 height=\u002260\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Ideal Spring",
+    "w": 100,
+    "h": 50,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022ideal_spring\u0022 name=\u0022Ideal Spring\u0022 title=\u0022Linear spring element\u0022 value=\u0022spring\u0022 style=\u0022path;html=1;strokeColor=#0066FF;fillColor=none;strokeWidth=2;pointerEvents=false;absoluteArcSize=1;arcSize=10;curveFitting=1;rounded=0;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002250\u0022 as=\u0022geometry\u0022\u003E\u003CmxPoint x=\u00220\u0022 y=\u002225\u0022 as=\u0022point\u0022 /\u003E\u003CmxPoint x=\u0022100\u0022 y=\u002225\u0022 as=\u0022point\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Damper",
+    "w": 100,
+    "h": 50,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022damper\u0022 name=\u0022Damper\u0022 title=\u0022Viscous damping element\u0022 value=\u0022damper\u0022 style=\u0022shape=mxgraph.mechanical.damper;html=1;fillColor=#E6E6FF;strokeColor=#0000CC;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002250\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Fixed Pulley",
+    "w": 50,
+    "h": 50,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022fixed_pulley\u0022 name=\u0022Fixed Pulley\u0022 title=\u0022Pulley constrained at one point\u0022 value=\u0022pulley\u0022 style=\u0022ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFCC;strokeColor=#CC9900;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002250\u0022 height=\u002250\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Movable Pulley",
+    "w": 50,
+    "h": 50,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022movable_pulley\u0022 name=\u0022Movable Pulley\u0022 title=\u0022Pulley that can translate\u0022 value=\u0022pulley_movable\u0022 style=\u0022ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFDD;strokeColor=#CCAA00;strokeWidth=2;dashed=1;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002250\u0022 height=\u002250\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Inclined Plane",
+    "w": 100,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022inclined_plane\u0022 name=\u0022Inclined Plane\u0022 title=\u0022Adjustable angle plane\u0022 value=\u0022incline\u0022 style=\u0022polygon;points=[[0,80],[100,20],[100,80]];html=1;fillColor=#E6F2FF;strokeColor=#0066CC;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Rope/Cable",
+    "w": 100,
+    "h": 10,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022rope_cable\u0022 name=\u0022Rope/Cable\u0022 title=\u0022Massless rope or cable\u0022 value=\u0022\u0022 style=\u0022line;html=1;strokeWidth=2;strokeColor=#8B4513;rounded=0;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002210\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u00225\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u00225\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Fixed Support",
+    "w": 40,
+    "h": 40,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022fixed_support\u0022 name=\u0022Fixed Support\u0022 title=\u0022Fully constrained point\u0022 value=\u0022fixed\u0022 style=\u0022path;html=1;fillColor=#CCCCCC;strokeColor=#000000;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002240\u0022 height=\u002240\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Roller Support",
+    "w": 40,
+    "h": 40,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022roller_support\u0022 name=\u0022Roller Support\u0022 title=\u0022Constrained normal to surface\u0022 value=\u0022roller\u0022 style=\u0022ellipse;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#333333;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002240\u0022 height=\u002240\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Pin Joint",
+    "w": 30,
+    "h": 30,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022pin_joint\u0022 name=\u0022Pin Joint\u0022 title=\u0022Moment-free connection\u0022 value=\u0022pin\u0022 style=\u0022ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFE6E6;strokeColor=#CC3333;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002230\u0022 height=\u002230\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Hinge",
+    "w": 50,
+    "h": 50,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022hinge\u0022 name=\u0022Hinge\u0022 title=\u0022Rotational joint\u0022 value=\u0022hinge\u0022 style=\u0022path;html=1;fillColor=#FFDDDD;strokeColor=#CC0000;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002250\u0022 height=\u002250\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Rigid Connection",
+    "w": 100,
+    "h": 10,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022rigid_connection\u0022 name=\u0022Rigid Connection\u0022 title=\u0022Moment-transferring connection\u0022 value=\u0022\u0022 style=\u0022line;html=1;strokeWidth=3;strokeColor=#000000;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002210\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u00225\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u00225\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Angular Velocity (\u03C9)",
+    "w": 80,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022angular_velocity\u0022 name=\u0022Angular Velocity (\u03C9)\u0022 title=\u0022Rotational motion indicator\u0022 value=\u0022\u0022 style=\u0022curved=1;html=1;strokeWidth=2;strokeColor=#FF6600;fillColor=none;endArrow=classic;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u002280\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002270\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Angular Acceleration (\u03B1)",
+    "w": 80,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022angular_acceleration\u0022 name=\u0022Angular Acceleration (\u03B1)\u0022 title=\u0022Rotational acceleration indicator\u0022 value=\u0022\u0022 style=\u0022curved=1;html=1;strokeWidth=2;strokeColor=#FF0099;fillColor=none;endArrow=classic;dashed=2;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u002280\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002270\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Angle Indicator",
+    "w": 60,
+    "h": 60,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022angle_indicator\u0022 name=\u0022Angle Indicator\u0022 title=\u0022Arc with angle label\u0022 value=\u0022\u0022 style=\u0022curved=1;html=1;strokeWidth=1.5;strokeColor=#000000;fillColor=none;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u002260\u0022 height=\u002260\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002230\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002250\u0022 y=\u002230\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Distance Marker",
+    "w": 100,
+    "h": 10,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022distance_marker\u0022 name=\u0022Distance Marker\u0022 title=\u0022Dimension line\u0022 value=\u0022\u0022 style=\u0022line;html=1;strokeWidth=1;strokeColor=#000000;endArrow=classic;startArrow=classic;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002210\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u00225\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u00225\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Center of Mass",
+    "w": 40,
+    "h": 40,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022center_of_mass\u0022 name=\u0022Center of Mass\u0022 title=\u0022Center of mass indicator (\u2605)\u0022 value=\u0022com\u0022 style=\u0022text;html=1;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002240\u0022 height=\u002240\u0022 as=\u0022geometry\u0022\u003E\u003CmxPoint as=\u0022offset\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Coordinate Axes",
+    "w": 80,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022coordinate_axes\u0022 name=\u0022Coordinate Axes\u0022 title=\u0022XY coordinate system\u0022 value=\u0022\u0022 style=\u0022line;html=1;strokeWidth=1;strokeColor=#000000;endArrow=classic;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u002280\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002270\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Atwood Machine",
+    "w": 120,
+    "h": 200,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022atwood_machine\u0022 name=\u0022Atwood Machine\u0022 title=\u0022Two-mass pulley system\u0022 value=\u0022atwood\u0022 style=\u0022group;html=1;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022120\u0022 height=\u0022200\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Pendulum Arm",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022pendulum_arm\u0022 name=\u0022Pendulum Arm\u0022 title=\u0022Rigid arm for pendulum\u0022 value=\u0022\u0022 style=\u0022line;html=1;strokeWidth=3;strokeColor=#8B4513;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Pendulum Mass",
+    "w": 40,
+    "h": 40,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022pendulum_mass\u0022 name=\u0022Pendulum Mass\u0022 title=\u0022Hanging mass on pendulum\u0022 value=\u0022pend_mass\u0022 style=\u0022ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCFF;strokeColor=#3333CC;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002240\u0022 height=\u002240\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Oscillator Base",
+    "w": 100,
+    "h": 30,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022oscillator_base\u0022 name=\u0022Oscillator Base\u0022 title=\u0022Fixed surface for oscillator\u0022 value=\u0022osc_base\u0022 style=\u0022rectangle;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002230\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Smooth/Frictionless Surface",
+    "w": 120,
+    "h": 10,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022smooth_surface\u0022 name=\u0022Smooth/Frictionless Surface\u0022 title=\u0022Frictionless contact surface\u0022 value=\u0022\u0022 style=\u0022line;html=1;strokeWidth=2;strokeColor=#0066FF;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022120\u0022 height=\u002210\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u00225\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u0022110\u0022 y=\u00225\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Rough Surface",
+    "w": 120,
+    "h": 20,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022rough_surface\u0022 name=\u0022Rough Surface\u0022 title=\u0022Friction indicator (textured)\u0022 value=\u0022rough\u0022 style=\u0022path;html=1;strokeWidth=2;strokeColor=#666666;fillColor=#DDDDDD;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022120\u0022 height=\u002220\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Displacement",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022displacement_vector\u0022 name=\u0022Displacement\u0022 title=\u0022Position or path indicator\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#0066FF;dashed=3;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Trajectory",
+    "w": 150,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022trajectory\u0022 name=\u0022Trajectory\u0022 title=\u0022Motion path indicator\u0022 value=\u0022\u0022 style=\u0022curved=1;html=1;strokeWidth=1.5;strokeColor=#666666;fillColor=none;dashed=3;endArrow=classic;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022150\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u0022140\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Applied Force",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022applied_force\u0022 name=\u0022Applied Force\u0022 title=\u0022External push or pull\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#00CC00;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Force Component (X)",
+    "w": 80,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022component_x\u0022 name=\u0022Force Component (X)\u0022 title=\u0022Horizontal component of force\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF9900;dashed=1;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u002280\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002270\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002270\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Force Component (Y)",
+    "w": 80,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022component_y\u0022 name=\u0022Force Component (Y)\u0022 title=\u0022Vertical component of force\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF9900;dashed=1;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u002280\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002240\u0022 y=\u002270\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002240\u0022 y=\u002210\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002270\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Resultant Force",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022resultant_force\u0022 name=\u0022Resultant Force\u0022 title=\u0022Vector sum of forces\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=3;fillColor=none;strokeColor=#FF0000;dashed=4;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Couple/Moment",
+    "w": 80,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022couple_moment\u0022 name=\u0022Couple/Moment\u0022 title=\u0022Rotational force pair or moment\u0022 value=\u0022\u0022 style=\u0022curved=1;html=1;strokeWidth=2;strokeColor=#FF0000;fillColor=none;endArrow=classic;startArrow=classic;dashed=2;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u002280\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002270\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Reaction Force (Vertical)",
+    "w": 100,
+    "h": 120,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022reaction_force_vertical\u0022 name=\u0022Reaction Force (Vertical)\u0022 title=\u0022Support reaction upward\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#6600CC;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022120\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002250\u0022 y=\u0022110\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002250\u0022 y=\u002210\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002260\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u002260\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Reaction Force (Horizontal)",
+    "w": 120,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022reaction_force_horizontal\u0022 name=\u0022Reaction Force (Horizontal)\u0022 title=\u0022Support reaction sideways\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#6600CC;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022120\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u0022110\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002250\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u0022110\u0022 y=\u002250\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Circular Motion Path",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022circular_motion_path\u0022 name=\u0022Circular Motion Path\u0022 title=\u0022Circle for circular motion diagram\u0022 value=\u0022circle_motion\u0022 style=\u0022ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#FF6600;strokeWidth=2;dashed=1;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Centripetal Force",
+    "w": 80,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022centripetal_force\u0022 name=\u0022Centripetal Force\u0022 title=\u0022Force toward center (circular motion)\u0022 value=\u0022\u0022 style=\u0022endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#FF0000;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u002280\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002270\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003CmxPoint x=\u002210\u0022 y=\u002240\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002270\u0022 y=\u002240\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Weld/Rigid Bond",
+    "w": 100,
+    "h": 10,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022 /\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022 /\u003E\u003CmxCell id=\u0022weld_rigid_bond\u0022 name=\u0022Weld/Rigid Bond\u0022 title=\u0022Permanent rigid connection\u0022 value=\u0022\u0022 style=\u0022line;html=1;strokeWidth=4;strokeColor=#000000;endArrow=none;\u0022 parent=\u00221\u0022 edge=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u002210\u0022 as=\u0022geometry\u0022 relative=\u00221\u0022\u003E\u003CmxPoint x=\u002210\u0022 y=\u00225\u0022 as=\u0022sourcePoint\u0022 /\u003E\u003CmxPoint x=\u002290\u0022 y=\u00225\u0022 as=\u0022targetPoint\u0022 /\u003E\u003C/mxGeometry\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Label Container",
+    "w": 80,
+    "h": 30,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022label_container\u0022 name=\u0022Label Container\u0022 title=\u0022Text box for variable labels\u0022 value=\u0022label\u0022 style=\u0022rounded=1;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002280\u0022 height=\u002230\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Axis Label (X)",
+    "w": 40,
+    "h": 40,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022axis_label_x\u0022 name=\u0022Axis Label (X)\u0022 title=\u0022X-axis indicator\u0022 value=\u0022axis_x\u0022 style=\u0022text;html=1;fontSize=14;fontStyle=bold;align=center;verticalAlign=middle;fontColor=#0066FF;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002240\u0022 height=\u002240\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Axis Label (Y)",
+    "w": 40,
+    "h": 40,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022axis_label_y\u0022 name=\u0022Axis Label (Y)\u0022 title=\u0022Y-axis indicator\u0022 value=\u0022axis_y\u0022 style=\u0022text;html=1;fontSize=14;fontStyle=bold;align=center;verticalAlign=middle;fontColor=#0066FF;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002240\u0022 height=\u002240\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Two-Body System",
+    "w": 150,
+    "h": 80,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022double_mass\u0022 name=\u0022Two-Body System\u0022 title=\u0022Connected mass system\u0022 value=\u0022two_body\u0022 style=\u0022group;html=1;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022150\u0022 height=\u002280\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "FBD Frame",
+    "w": 200,
+    "h": 200,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022free_body_diagram_frame\u0022 name=\u0022FBD Frame\u0022 title=\u0022Container for free body diagram\u0022 value=\u0022fbd_frame\u0022 style=\u0022rectangle;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;dashed=1;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022200\u0022 height=\u0022200\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Spring-Damper Combination",
+    "w": 100,
+    "h": 100,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022spring_damper_combo\u0022 name=\u0022Spring-Damper Combination\u0022 title=\u0022Parallel spring and damper\u0022 value=\u0022spring_damper\u0022 style=\u0022group;html=1;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022100\u0022 height=\u0022100\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Magnitude Indicator",
+    "w": 60,
+    "h": 25,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022magnitude_indicator\u0022 name=\u0022Magnitude Indicator\u0022 title=\u0022Show force or vector magnitude\u0022 value=\u0022magnitude\u0022 style=\u0022text;html=1;fontSize=11;fillColor=#FFFFCC;strokeColor=#FF9900;strokeWidth=1;align=center;verticalAlign=middle;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002260\u0022 height=\u002225\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Simple Mass (Box)",
+    "w": 50,
+    "h": 50,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022simple_box_mass\u0022 name=\u0022Simple Mass (Box)\u0022 title=\u0022Basic rectangular mass\u0022 value=\u0022box_mass\u0022 style=\u0022rectangle;html=1;fillColor=#FFE6E6;strokeColor=#CC0000;strokeWidth=2;rounded=0;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002250\u0022 height=\u002250\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Circular Mass",
+    "w": 50,
+    "h": 50,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022circle_mass\u0022 name=\u0022Circular Mass\u0022 title=\u0022Circular mass representation\u0022 value=\u0022circle_mass\u0022 style=\u0022ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFE6E6;strokeColor=#CC0000;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002250\u0022 height=\u002250\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Beam/Rod",
+    "w": 120,
+    "h": 20,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022extended_beam\u0022 name=\u0022Beam/Rod\u0022 title=\u0022Rigid beam or rod element\u0022 value=\u0022beam\u0022 style=\u0022rectangle;html=1;fillColor=#D9D9D9;strokeColor=#333333;strokeWidth=2;rounded=0;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u0022120\u0022 height=\u002220\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  },
+  {
+    "title": "Constraint Symbol",
+    "w": 50,
+    "h": 50,
+    "xml": "\u003CmxGraphModel dx=\u00221422\u0022 dy=\u0022794\u0022 grid=\u00221\u0022 gridSize=\u002210\u0022 guides=\u00221\u0022 tooltips=\u00221\u0022 connect=\u00221\u0022 arrows=\u00221\u0022 fold=\u00221\u0022 page=\u00221\u0022 pageScale=\u00221\u0022 pageWidth=\u0022850\u0022 pageHeight=\u00221100\u0022 math=\u00220\u0022 shadow=\u00220\u0022\u003E\u003Croot\u003E\u003CmxCell id=\u00220\u0022/\u003E\u003CmxCell id=\u00221\u0022 parent=\u00220\u0022/\u003E\u003CmxCell id=\u0022constraint_symbol\u0022 name=\u0022Constraint Symbol\u0022 title=\u0022General constraint indicator\u0022 value=\u0022constraint\u0022 style=\u0022path;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;\u0022 vertex=\u00221\u0022 parent=\u00221\u0022\u003E\u003CmxGeometry width=\u002250\u0022 height=\u002250\u0022 as=\u0022geometry\u0022 /\u003E\u003C/mxCell\u003E\u003C/root\u003E\u003C/mxGraphModel\u003E"
+  }
+]
+]]></mxlibrary>

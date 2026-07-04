@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate draw.io XML",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "$file = Join-Path $PWD 'classical-mechanics.xml'; if (-not (Test-Path -LiteralPath $file)) { throw \"File not found: $file\" }; [xml](Get-Content -LiteralPath $file -Raw) | Out-Null; Write-Host \"XML OK: $file\""
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      },
+      "runOptions": {
+        "runOn": "default"
+      },
+      "group": "test"
+    }
+  ]
+}

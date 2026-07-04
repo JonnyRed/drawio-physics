@@ -3,13 +3,16 @@
 ## Quick Start (3 Steps)
 
 ### Step 1: Download the Library
+
 - Clone this repository or download `classical-mechanics.xml`
 
 ### Step 2: Open Draw.io
+
 - Go to [draw.io](https://www.draw.io) or open the desktop app
 - Create a new diagram or open an existing one
 
 ### Step 3: Import the Library
+
 - Click **More Shapes** (bottom left panel)
 - Click **Edit Shapes**
 - Click **Import**
@@ -25,7 +28,7 @@ The library is now available in your shape panel!
 ### Method 1: Online draw.io (Recommended for Beginners)
 
 1. **Open draw.io**
-   - Navigate to https://www.draw.io
+   - Navigate to <https://www.draw.io>
    - Click **Create New Diagram** or open an existing one
 
 2. **Access Shape Library Manager**
@@ -92,7 +95,8 @@ For organizations wanting centralized library management:
 2. **Import in Draw.io**
    - More Shapes → Edit Shapes → Import
    - Use the raw GitHub URL:
-     ```
+
+   ```text
      https://raw.githubusercontent.com/YOUR-USERNAME/drawio-physics/main/classical-mechanics.xml
      ```
 
@@ -118,13 +122,15 @@ For organizations wanting centralized library management:
 ## Troubleshooting
 
 ### "Import Failed" Error
+
 - **Issue**: File format not recognized
-- **Solution**: 
+- **Solution**:
   - Ensure file is named `classical-mechanics.xml` (not `.txt`)
   - Check file is valid XML (open in browser to verify)
   - Try dragging file directly onto canvas instead
 
 ### Shapes Don't Appear
+
 - **Issue**: Library imported but no shapes visible
 - **Solution**:
   - Scroll down in "More Shapes" panel
@@ -133,6 +139,7 @@ For organizations wanting centralized library management:
   - Try File → Recent → Reload
 
 ### Color/Style Issues
+
 - **Issue**: Shapes appear different than expected
 - **Solution**:
   - Click shape → Format panel (right side)
@@ -140,6 +147,7 @@ For organizations wanting centralized library management:
   - Shapes are fully customizable
 
 ### Import on Mobile
+
 - **Issue**: Can't import on iPad/mobile
 - **Solution**:
   - Use desktop browser version (more.draw.io works better)
@@ -168,7 +176,7 @@ After installation, verify everything works:
 
 ### Basic Workflow
 
-```
+```text
 1. Open/Create Diagram
 2. Open "More Shapes"
 3. Expand "Classical Mechanics"
@@ -193,21 +201,25 @@ After installation, verify everything works:
 After import, shape library files are stored at:
 
 **Windows:**
-```
+
+```text
 C:\Users\[YourUsername]\AppData\Roaming\draw.io\custom-shapes.xml
 ```
 
 **macOS:**
-```
+
+```text
 ~/Library/Application Support/draw.io/custom-shapes.xml
 ```
 
 **Linux:**
-```
+
+```text
 ~/.config/draw.io/custom-shapes.xml
 ```
 
 **Online draw.io:**
+
 - Stored in browser localStorage (specific to each device)
 
 ---
@@ -217,21 +229,27 @@ C:\Users\[YourUsername]\AppData\Roaming\draw.io\custom-shapes.xml
 ### Common Questions
 
 **Q: Can I use this in offline mode?**
+
 - A: Yes, Desktop version works fully offline after import
 
 **Q: Do I need to re-import each time?**
+
 - A: No, library persists in your draw.io installation
 
 **Q: Can I modify the shapes?**
+
 - A: Yes, fully editable via Format panel or Edit Shapes menu
 
 **Q: Is there a limit to how many shapes I can use?**
+
 - A: No, use as many as needed in a single diagram
 
 **Q: Can I share my diagram with others?**
+
 - A: Yes, export as PNG/PDF or share .drawio file (they need library too)
 
 ### Need Support?
+
 - Check [draw.io Documentation](https://www.draw.io)
 - Open an issue on this GitHub repository
 - See CONTRIBUTING.md for development guidelines
