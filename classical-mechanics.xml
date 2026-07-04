@@ -1,0 +1,279 @@
+<mxlibrary>
+  <mxCell id="force_vector_basic" name="Force Vector" title="Basic force vector arrow" value="force" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF0000;dashed=0;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry">
+      <mxPoint x="10" y="50" as="sourcePoint"/>
+      <mxPoint x="90" y="50" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="force_vector_large" name="Force Vector (Large)" title="Emphasized force indicator" value="force_large" style="endArrow=classic;startArrow=none;html=1;strokeWidth=3;fillColor=none;strokeColor=#FF0000;" vertex="1">
+    <mxGeometry width="120" height="120" as="geometry">
+      <mxPoint x="10" y="60" as="sourcePoint"/>
+      <mxPoint x="110" y="60" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="weight_vector" name="Weight Vector" title="Gravitational force (downward)" value="weight" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#0066CC;" vertex="1">
+    <mxGeometry width="100" height="120" as="geometry">
+      <mxPoint x="50" y="10" as="sourcePoint"/>
+      <mxPoint x="50" y="110" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="normal_force" name="Normal Force" title="Force perpendicular to surface" value="normal_force" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#00AA00;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry">
+      <mxPoint x="50" y="90" as="sourcePoint"/>
+      <mxPoint x="50" y="10" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="friction_force" name="Friction Force" title="Resistance along surface" value="friction" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#FF6600;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry">
+      <mxPoint x="90" y="50" as="sourcePoint"/>
+      <mxPoint x="10" y="50" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="tension_force" name="Tension" title="Force along rope or cable" value="tension" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#9900CC;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry">
+      <mxPoint x="50" y="90" as="sourcePoint"/>
+      <mxPoint x="50" y="10" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="velocity_vector" name="Velocity Vector" title="Instantaneous velocity (v)" value="velocity" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#0066FF;dashed=1;" vertex="1">
+    <mxGeometry width="100" height="80" as="geometry">
+      <mxPoint x="10" y="40" as="sourcePoint"/>
+      <mxPoint x="90" y="40" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="acceleration_vector" name="Acceleration Vector" title="Instantaneous acceleration (a)" value="acceleration" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF0099;dashed=2;" vertex="1">
+    <mxGeometry width="100" height="80" as="geometry">
+      <mxPoint x="10" y="40" as="sourcePoint"/>
+      <mxPoint x="90" y="40" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="point_mass" name="Point Mass" title="Particle or concentrated mass" value="mass" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;strokeColor=#990000;strokeWidth=2;" vertex="1">
+    <mxGeometry width="40" height="40" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="block_mass" name="Block/Mass" title="Extended rectangular mass" value="block" style="rectangle;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=#CC0000;strokeWidth=2;" vertex="1">
+    <mxGeometry width="60" height="60" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="ideal_spring" name="Ideal Spring" title="Linear spring element" value="spring" style="path;html=1;strokeColor=#0066FF;fillColor=none;strokeWidth=2;pointerEvents=false;absoluteArcSize=1;arcSize=10;curveFitting=1;rounded=0;" vertex="1">
+    <mxGeometry width="100" height="50" as="geometry">
+      <mxPoint x="0" y="25" as="point"/>
+      <mxPoint x="100" y="25" as="point"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="damper" name="Damper" title="Viscous damping element" value="damper" style="shape=mxgraph.mechanical.damper;html=1;fillColor=#E6E6FF;strokeColor=#0000CC;strokeWidth=2;" vertex="1">
+    <mxGeometry width="100" height="50" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="fixed_pulley" name="Fixed Pulley" title="Pulley constrained at one point" value="pulley" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFCC;strokeColor=#CC9900;strokeWidth=2;" vertex="1">
+    <mxGeometry width="50" height="50" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="movable_pulley" name="Movable Pulley" title="Pulley that can translate" value="pulley_movable" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFDD;strokeColor=#CCAA00;strokeWidth=2;dashed=1;" vertex="1">
+    <mxGeometry width="50" height="50" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="inclined_plane" name="Inclined Plane" title="Adjustable angle plane" value="incline" style="polygon;points=[[0,80],[100,20],[100,80]];html=1;fillColor=#E6F2FF;strokeColor=#0066CC;strokeWidth=2;" vertex="1">
+    <mxGeometry width="100" height="80" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="rope_cable" name="Rope/Cable" title="Massless rope or cable" value="rope" style="line;html=1;strokeWidth=2;strokeColor=#8B4513;rounded=0;" vertex="1">
+    <mxGeometry width="100" height="10" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="fixed_support" name="Fixed Support" title="Fully constrained point" value="fixed" style="path;html=1;fillColor=#CCCCCC;strokeColor=#000000;strokeWidth=2;" vertex="1">
+    <mxGeometry width="40" height="40" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="roller_support" name="Roller Support" title="Constrained normal to surface" value="roller" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#333333;strokeWidth=2;" vertex="1">
+    <mxGeometry width="40" height="40" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="pin_joint" name="Pin Joint" title="Moment-free connection" value="pin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFE6E6;strokeColor=#CC3333;strokeWidth=2;" vertex="1">
+    <mxGeometry width="30" height="30" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="hinge" name="Hinge" title="Rotational joint" value="hinge" style="path;html=1;fillColor=#FFDDDD;strokeColor=#CC0000;strokeWidth=2;" vertex="1">
+    <mxGeometry width="50" height="50" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="rigid_connection" name="Rigid Connection" title="Moment-transferring connection" value="rigid" style="line;html=1;strokeWidth=3;strokeColor=#000000;" vertex="1">
+    <mxGeometry width="100" height="10" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="angular_velocity" name="Angular Velocity (ω)" title="Rotational motion indicator" value="omega" style="curved=1;html=1;strokeWidth=2;strokeColor=#FF6600;fillColor=none;endArrow=classic;" vertex="1">
+    <mxGeometry width="80" height="80" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="angular_acceleration" name="Angular Acceleration (α)" title="Rotational acceleration indicator" value="alpha" style="curved=1;html=1;strokeWidth=2;strokeColor=#FF0099;fillColor=none;endArrow=classic;dashed=2;" vertex="1">
+    <mxGeometry width="80" height="80" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="angle_indicator" name="Angle Indicator" title="Arc with angle label" value="angle" style="curved=1;html=1;strokeWidth=1.5;strokeColor=#000000;fillColor=none;" vertex="1">
+    <mxGeometry width="60" height="60" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="distance_marker" name="Distance Marker" title="Dimension line" value="distance" style="line;html=1;strokeWidth=1;strokeColor=#000000;endArrow=classic;startArrow=classic;" vertex="1">
+    <mxGeometry width="100" height="10" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="center_of_mass" name="Center of Mass" title="Center of mass indicator (★)" value="com" style="text;html=1;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1">
+    <mxGeometry width="40" height="40" as="geometry">
+      <mxPoint as="offset"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="coordinate_axes" name="Coordinate Axes" title="XY coordinate system" value="axes" style="line;html=1;strokeWidth=1;strokeColor=#000000;endArrow=classic;" vertex="1">
+    <mxGeometry width="80" height="80" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="atwood_machine" name="Atwood Machine" title="Two-mass pulley system" value="atwood" style="group;html=1;" vertex="1">
+    <mxGeometry width="120" height="200" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="pendulum_arm" name="Pendulum Arm" title="Rigid arm for pendulum" value="pendulum_arm" style="line;html=1;strokeWidth=3;strokeColor=#8B4513;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="pendulum_mass" name="Pendulum Mass" title="Hanging mass on pendulum" value="pend_mass" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCFF;strokeColor=#3333CC;strokeWidth=2;" vertex="1">
+    <mxGeometry width="40" height="40" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="oscillator_base" name="Oscillator Base" title="Fixed surface for oscillator" value="osc_base" style="rectangle;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;" vertex="1">
+    <mxGeometry width="100" height="30" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="smooth_surface" name="Smooth/Frictionless Surface" title="Frictionless contact surface" value="smooth" style="line;html=1;strokeWidth=2;strokeColor=#0066FF;" vertex="1">
+    <mxGeometry width="120" height="10" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="rough_surface" name="Rough Surface" title="Friction indicator (textured)" value="rough" style="path;html=1;strokeWidth=2;strokeColor=#666666;fillColor=#DDDDDD;" vertex="1">
+    <mxGeometry width="120" height="20" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="displacement_vector" name="Displacement" title="Position or path indicator" value="displacement" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#0066FF;dashed=3;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry">
+      <mxPoint x="10" y="50" as="sourcePoint"/>
+      <mxPoint x="90" y="50" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="trajectory" name="Trajectory" title="Motion path indicator" value="trajectory" style="curved=1;html=1;strokeWidth=1.5;strokeColor=#666666;fillColor=none;dashed=3;endArrow=classic;" vertex="1">
+    <mxGeometry width="150" height="100" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="applied_force" name="Applied Force" title="External push or pull" value="applied" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#00CC00;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry">
+      <mxPoint x="10" y="50" as="sourcePoint"/>
+      <mxPoint x="90" y="50" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="component_x" name="Force Component (X)" title="Horizontal component of force" value="comp_x" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF9900;dashed=1;" vertex="1">
+    <mxGeometry width="80" height="80" as="geometry">
+      <mxPoint x="10" y="40" as="sourcePoint"/>
+      <mxPoint x="70" y="40" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="component_y" name="Force Component (Y)" title="Vertical component of force" value="comp_y" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF9900;dashed=1;" vertex="1">
+    <mxGeometry width="80" height="80" as="geometry">
+      <mxPoint x="40" y="70" as="sourcePoint"/>
+      <mxPoint x="40" y="10" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="resultant_force" name="Resultant Force" title="Vector sum of forces" value="resultant" style="endArrow=classic;startArrow=none;html=1;strokeWidth=3;fillColor=none;strokeColor=#FF0000;dashed=4;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry">
+      <mxPoint x="10" y="50" as="sourcePoint"/>
+      <mxPoint x="90" y="50" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="couple_moment" name="Couple/Moment" title="Rotational force pair or moment" value="couple" style="curved=1;html=1;strokeWidth=2;strokeColor=#FF0000;fillColor=none;endArrow=classic;startArrow=classic;dashed=2;" vertex="1">
+    <mxGeometry width="80" height="80" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="reaction_force_vertical" name="Reaction Force (Vertical)" title="Support reaction upward" value="reaction_v" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#6600CC;" vertex="1">
+    <mxGeometry width="100" height="120" as="geometry">
+      <mxPoint x="50" y="110" as="sourcePoint"/>
+      <mxPoint x="50" y="10" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="reaction_force_horizontal" name="Reaction Force (Horizontal)" title="Support reaction sideways" value="reaction_h" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#6600CC;" vertex="1">
+    <mxGeometry width="120" height="100" as="geometry">
+      <mxPoint x="110" y="50" as="sourcePoint"/>
+      <mxPoint x="10" y="50" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="circular_motion_path" name="Circular Motion Path" title="Circle for circular motion diagram" value="circle_motion" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#FF6600;strokeWidth=2;dashed=1;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="centripetal_force" name="Centripetal Force" title="Force toward center (circular motion)" value="centripetal" style="endArrow=classic;startArrow=none;html=1;strokeWidth=2.5;fillColor=none;strokeColor=#FF0000;" vertex="1">
+    <mxGeometry width="80" height="80" as="geometry">
+      <mxPoint x="70" y="40" as="sourcePoint"/>
+      <mxPoint x="10" y="40" as="targetPoint"/>
+    </mxGeometry>
+  </mxCell>
+
+  <mxCell id="weld_rigid_bond" name="Weld/Rigid Bond" title="Permanent rigid connection" value="weld" style="line;html=1;strokeWidth=4;strokeColor=#000000;endArrow=none;" vertex="1">
+    <mxGeometry width="100" height="10" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="label_container" name="Label Container" title="Text box for variable labels" value="label" style="rounded=1;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" vertex="1">
+    <mxGeometry width="80" height="30" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="axis_label_x" name="Axis Label (X)" title="X-axis indicator" value="axis_x" style="text;html=1;fontSize=14;fontStyle=bold;align=center;verticalAlign=middle;fontColor=#0066FF;" vertex="1">
+    <mxGeometry width="40" height="40" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="axis_label_y" name="Axis Label (Y)" title="Y-axis indicator" value="axis_y" style="text;html=1;fontSize=14;fontStyle=bold;align=center;verticalAlign=middle;fontColor=#0066FF;" vertex="1">
+    <mxGeometry width="40" height="40" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="double_mass" name="Two-Body System" title="Connected mass system" value="two_body" style="group;html=1;" vertex="1">
+    <mxGeometry width="150" height="80" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="free_body_diagram_frame" name="FBD Frame" title="Container for free body diagram" value="fbd_frame" style="rectangle;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;dashed=1;" vertex="1">
+    <mxGeometry width="200" height="200" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="spring_damper_combo" name="Spring-Damper Combination" title="Parallel spring and damper" value="spring_damper" style="group;html=1;" vertex="1">
+    <mxGeometry width="100" height="100" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="magnitude_indicator" name="Magnitude Indicator" title="Show force or vector magnitude" value="magnitude" style="text;html=1;fontSize=11;fillColor=#FFFFCC;strokeColor=#FF9900;strokeWidth=1;align=center;verticalAlign=middle;" vertex="1">
+    <mxGeometry width="60" height="25" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="simple_box_mass" name="Simple Mass (Box)" title="Basic rectangular mass" value="box_mass" style="rectangle;html=1;fillColor=#FFE6E6;strokeColor=#CC0000;strokeWidth=2;rounded=0;" vertex="1">
+    <mxGeometry width="50" height="50" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="circle_mass" name="Circular Mass" title="Circular mass representation" value="circle_mass" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFE6E6;strokeColor=#CC0000;strokeWidth=2;" vertex="1">
+    <mxGeometry width="50" height="50" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="extended_beam" name="Beam/Rod" title="Rigid beam or rod element" value="beam" style="rectangle;html=1;fillColor=#D9D9D9;strokeColor=#333333;strokeWidth=2;rounded=0;" vertex="1">
+    <mxGeometry width="120" height="20" as="geometry"/>
+  </mxCell>
+
+  <mxCell id="constraint_symbol" name="Constraint Symbol" title="General constraint indicator" value="constraint" style="path;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;" vertex="1">
+    <mxGeometry width="50" height="50" as="geometry"/>
+  </mxCell>
+
+</mxlibrary>
